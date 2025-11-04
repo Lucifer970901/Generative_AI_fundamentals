@@ -31,7 +31,7 @@ Example for Discriminative model includes -  Logistic Regression, Support Vector
 
 ---
 
-### Where Generative Ai exists?
+### Where Generative AI exists.
 
 * Machine learning is a subset of Artificial Intelligence.
 * Deep Learning is a subset of Machine Learning.
@@ -41,7 +41,7 @@ Example for Discriminative model includes -  Logistic Regression, Support Vector
 
 ---
 
-### Discrimintative VS Generative model
+### Discrimintative VS Generative Model
 
 ![alt text](image-1.png)
 
@@ -61,7 +61,8 @@ Supervised learning involves training a machine learning model on a labeled data
 2. **Learning Mapping**: The algorithm learns a function that can predict the output label Y from the input features X. It tries to minimize the difference between its predictions and the actual labels.
 3. **Generalization**: Once trained, the model can then be used to predict labels for new, unseen input data.
 
-Examples include classification (output variable is a category of discrete value) -  spam detection, image classification, disease diagnosis
+Examples include classification (output variable is a category of discrete value) -  Spam Detection, Image Classification, Disease Diagnosis.
+
 Regression (output variable is continuous value) - house price prediction, stock price forecasting, temperature prediction.
 
 **Common Algorithms**:
@@ -86,12 +87,16 @@ Unsupervised learning deals with unlabeled data. There are no "correct" outputs 
 3. **Insight Generation**: The output is typically a representation of the data's structure, such as clusters, reduced dimensions, or identified associations.
 
 * **Clustering**: Grouping similar data points together into clusters, where data points within a cluster are more similar to each other than to those in other clusters.
+
 Examples: customer segmentation, document clustering(like sports technology etc), genomic analysis.
 * **Dimensionality Reduction**: Reducing the number of features (variables) in a dataset while retaining as much important information as possible. This is useful for visualization, noise reduction, and speeding up other machine learning algorithms.
+
 Examples: image compression, feature extraction
 * **Association Rule Mining**: Discovering rules that describe relationships or co-occurrences between variables in large datasets.
+
 Example: market basket analysis, recommendation systems
 * **Anomaly Detection**: Identifying rare items, events, or observations that deviate significantly from the majority of the data.
+
 Example: Fraud detection, network intrusion detection
 
 **Common Algorithms**:
