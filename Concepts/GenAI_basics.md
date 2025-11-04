@@ -57,9 +57,9 @@ Supervised learning involves training a machine learning model on a labeled data
 
 **How it Works**:
 
-**1. Labeled Data**: You provide the model with a dataset where each data point has both input features (X) and a corresponding known output label (Y).
-**2. Learning Mapping**: The algorithm learns a function that can predict the output label Y from the input features X. It tries to minimize the difference between its predictions and the actual labels.
-**3. Generalization**: Once trained, the model can then be used to predict labels for new, unseen input data.
+1. **Labeled Data**: You provide the model with a dataset where each data point has both input features (X) and a corresponding known output label (Y).
+2. **Learning Mapping**: The algorithm learns a function that can predict the output label Y from the input features X. It tries to minimize the difference between its predictions and the actual labels.
+3. **Generalization**: Once trained, the model can then be used to predict labels for new, unseen input data.
 
 Examples include classification (output variable is a category of discrete value) -  spam detection, image classification, disease diagnosis
 Regression (output variable is continuous value) - house price prediction, stock price forecasting, temperature prediction.
@@ -73,14 +73,17 @@ Regression (output variable is continuous value) - house price prediction, stock
 * K-Nearest Neighbors (KNN)
 * Neural Networks (often used in a supervised context for classification/regression)
 
+---
+
 #### Unsupervised Learning
 
 Unsupervised learning deals with unlabeled data. There are no "correct" outputs provided during training. Instead, the algorithm's goal is to discover hidden patterns, structures, relationships, or insights within the data itself. It's like a student exploring a new topic without a teacher, trying to find inherent organizational principles.
 
 **How it Works**:
-**1. Unlabeled Data**: You provide the model with a dataset containing only input features (X), with no corresponding output labels.
-**2. Pattern Discovery**: The algorithm analyzes the data to identify similarities, differences, and inherent groupings or underlying representations.
-**3. Insight Generation**: The output is typically a representation of the data's structure, such as clusters, reduced dimensions, or identified associations.
+
+1. **Unlabeled Data**: You provide the model with a dataset containing only input features (X), with no corresponding output labels.
+2. **Pattern Discovery**: The algorithm analyzes the data to identify similarities, differences, and inherent groupings or underlying representations.
+3. **Insight Generation**: The output is typically a representation of the data's structure, such as clusters, reduced dimensions, or identified associations.
 
 * **Clustering**: Grouping similar data points together into clusters, where data points within a cluster are more similar to each other than to those in other clusters.
 Examples: customer segmentation, document clustering(like sports technology etc), genomic analysis.
