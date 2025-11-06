@@ -1,4 +1,4 @@
-## Generative AI foundational
+# Generative AI foundational
 
 Generative AI - is the type of AI that allows you to create new original content rather than just analyzing and classifying the existing data or training sample. the content can include text, image, audio, video and any other media including 3D designing, synthetic modeling etc.
 
@@ -87,17 +87,12 @@ Unsupervised learning deals with unlabeled data. There are no "correct" outputs 
 3. **Insight Generation**: The output is typically a representation of the data's structure, such as clusters, reduced dimensions, or identified associations.
 
 * **Clustering**: Grouping similar data points together into clusters, where data points within a cluster are more similar to each other than to those in other clusters.
-
-Examples: customer segmentation, document clustering(like sports technology etc), genomic analysis.
 * **Dimensionality Reduction**: Reducing the number of features (variables) in a dataset while retaining as much important information as possible. This is useful for visualization, noise reduction, and speeding up other machine learning algorithms.
-
-Examples: image compression, feature extraction
+    Examples: Image Compression, Feature Extraction
 * **Association Rule Mining**: Discovering rules that describe relationships or co-occurrences between variables in large datasets.
-
-Example: market basket analysis, recommendation systems
+    Examples: Market Basket Analysis, Recommendation Systems
 * **Anomaly Detection**: Identifying rare items, events, or observations that deviate significantly from the majority of the data.
-
-Example: Fraud detection, network intrusion detection
+    Examples: Fraud detection, Network Intrusion Detection
 
 **Common Algorithms**:
 * K-Means Clustering
@@ -113,3 +108,5 @@ Example: Fraud detection, network intrusion detection
 Generative AI is a subset of Deep Learning and Generative models are trained on huge amount of data. while training these models we do not need to provide any labeled data, it is not possible when we have a huge amount of data.
 
 ***In Generative AI we use unstructured data to the LLm model for training purpose***. If the unlabeled data is given to the generative AI model, it tries to create the cluster based on the data.  that’s how its able to generate the new data for you based on the training data.
+
+---
