@@ -143,22 +143,22 @@ Feature Engineering transforms raw data into a set of informative features that 
 
 * **Text Vectorization**: Converting text into numerical vector representations that models understand.
 
-**Bag-of-Words (BoW) and TF-IDF**: Traditional methods that represent text based on word frequency.
+* **Bag-of-Words (BoW) and TF-IDF**: Traditional methods that represent text based on word frequency.
 
-**Word2Vec/GloVe**: Embeddings that capture semantic relationships between words.
+* **Word2Vec/GloVe**: Embeddings that capture semantic relationships between words.
 
-**Transformer Models**: State-of-the-art models (like BERT, GPT) use complex encoder-decoder architectures to create dense, context-aware vector representations (embeddings).
+* **Transformer Models**: State-of-the-art models (like BERT, GPT) use complex encoder-decoder architectures to create dense, context-aware vector representations (embeddings).
 
-**Image Vectorization**: For image data (pixels), Vision Transformer (ViT) models are used to convert the raw pixel information into a meaningful vector representation.
+* **Image Vectorization**: For image data (pixels), Vision Transformer (ViT) models are used to convert the raw pixel information into a meaningful vector representation.
 
 ---
 
 ### 🧠 Modeling
 After preprocessing and feature engineering, the data is used to train a model.
 
-* **Open Source LLMs (Large Language Models)**: These models can be downloaded and run locally or on a private server, offering full control. This requires substantial computational resources (CPU, memory, and powerful GPU) for training and deployment.
+* **Open Source LLMs (Large Language Models)**: These models **can be downloaded and run locally** or on a private server, offering full control. This requires substantial computational resources (CPU, memory, and powerful GPU) for training and deployment.
 
-* **Paid Models**: These models are accessed via an API (Application Programming Interface), eliminating the need for local download or dedicated high-end hardware for training or inference.
+* **Paid Models**: These models are **accessed via an API **(Application Programming Interface), eliminating the need for local download or dedicated high-end hardware for training or inference.
 
 ---
 
@@ -171,7 +171,7 @@ Model evaluation ensures the model performs as expected and meets required stand
 
     * It relies on statistical metrics to measure the model's performance on core tasks.
 
-    * Common Metrics Include: Accuracy, Precision, Recall, F1 Score (for classification), Perplexity (for language models), and BLEU Score (for machine translation/text generation).
+    * Common Metrics Include:**Accuracy, Precision, Recall, F1 Score** (for classification), **Perplexity** (for language models), and **BLEU Score** (for machine translation/text generation).
 
 2. **Extrinsic Evaluation (Live/In-Production Metrics)**:
 
@@ -179,7 +179,7 @@ Model evaluation ensures the model performs as expected and meets required stand
 
     * It often measures the impact on a downstream task or business objective.
 
-    * It frequently involves collecting user feedback (e.g., asking if the user liked the application's output) and monitoring key business metrics.
+    * It frequently **involves collecting user feedback** (e.g., asking if the user liked the application's output) and monitoring key business metrics.
 
 ---
 
@@ -190,6 +190,6 @@ It involves integrating the final, trained model into a production environment (
 
 Deployment also includes crucial ongoing phases:
 
-* **Monitoring**: Continuously tracking the model's performance in production to detect issues like model drift (where performance degrades over time due to changing data patterns).
+* **Monitoring**: Continuously tracking the model's performance in production to **detect issues like model drift** (where performance degrades over time due to changing data patterns).
 
-* **Retraining**: Periodically or automatically updating the model with new data to maintain its accuracy and relevance.
+* *Retraining*: Periodically or automatically updating the model with new data to maintain its accuracy and relevance.
