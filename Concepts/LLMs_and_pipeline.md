@@ -121,7 +121,7 @@ These steps analyze the grammatical and structural relationships within the text
 
 *   * **Part-of-Speech (POS) Tagging**: Assigning a grammatical category (like Noun, Verb, Adjective) to each word based on its context, which aids in understanding the word's function.
 
-    ![alt text](image-7.png)
+    ![alt text](assets/image-7.png)
 
     * **Parsing (Syntactic Parsing)**: Analyzing the hierarchical grammatical structure of a sentence.
 
@@ -129,11 +129,11 @@ These steps analyze the grammatical and structural relationships within the text
 
     * **Dependency Parsing**: Shows the grammatical relationships between words as directed links (e.g., subject, object).
 
-    ![alt text](image-6.png)
+    ![alt text](assets/image-6.png)
 
     * **Coreference Resolution**: Identifying and grouping all mentions (pronouns, nouns, phrases) that refer to the same real-world entity within a text (e.g., linking "John" and "He").
 
-    ![alt text](image-3.png)
+    ![alt text](assets/image-3.png)
 
 ---
 
