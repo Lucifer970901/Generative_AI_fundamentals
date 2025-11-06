@@ -71,7 +71,7 @@ Image augmentation applies transformations to images to increase the quantity an
         * Rotation: Positive and negative rotation.
         * Crop: Random cropping.
 
-    * **Color/Pixel Manipulations**:
+     * **Color/Pixel Manipulations**:
 
         * Brightness and Contrast adjustments.
         * Color Space Conversion: Convert to Grayscale.
