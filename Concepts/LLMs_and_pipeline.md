@@ -114,7 +114,7 @@ These steps aim to reduce complexity and improve model focus.
 
     * **Lemmatization (Popular)**: Reducing a word to its basic dictionary form (lemma). It's more precise than stemming, always resulting in a valid word, as it considers context (e.g., "better" -> "good").
 
-    ![alt text](image-8.png)
+    ![alt text](assets/image-8.png)
 
 4. **Advanced Preprocessing (NLP)**
 These steps analyze the grammatical and structural relationships within the text.
