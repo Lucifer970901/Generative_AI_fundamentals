@@ -3,7 +3,7 @@
 
 These are foundational machine learning models that usedeep learning algorithms to process and understand natural language, these models are trained on massive amount of text data to learn patterns and entity relationships in the language.
 
-This is the type of generative AI models that specializes in undestanding, generating and interacting in human language. its responsible to perform tasks such as text to text generation, text to image generation and image to text generation.
+This is the type of generative AI models that specializes in undestanding, generating and interacting in human language. its responsible to perform tasks such as **text to text generation**, **text to image generation** and **image to text generation**.
 
 
 ### what makes LLMs so powerful?
@@ -83,14 +83,14 @@ Image augmentation applies transformations to images to increase the quantity an
 
 Data preprocessing transforms raw, unstructured data into a clean, structured format suitable for model training.
 
-1. **Cleanup Operations**
+#### 1. **Cleanup Operations**
 
 These are initial steps to remove irrelevant or problematic elements from the raw data:
 
 *   * **Remove HTML Tags and Emoji**: Eliminating web formatting and non-textual symbols.
     * **Spelling Correction**: Fixing typos to ensure word consistency.
 
-2. **Basic Preprocessing**
+#### 2. **Basic Preprocessing**
 These steps prepare the text for tokenization and further analysis.
 
 *   * **Tokenization**: Breaking down text into smaller units (tokens).
@@ -105,7 +105,7 @@ These steps prepare the text for tokenization and further analysis.
 
     * **Language Detection**: Identifying the primary language of the text.
 
-3. **Optional Preprocessing**
+#### 3. **Optional Preprocessing**
 These steps aim to reduce complexity and improve model focus.
 
 *   * **Stop Word Removal**: Removing common, low-information words (e.g., "the," "a," "is").
@@ -114,14 +114,14 @@ These steps aim to reduce complexity and improve model focus.
 
     * **Lemmatization (Popular)**: Reducing a word to its basic dictionary form (lemma). It's more precise than stemming, always resulting in a valid word, as it considers context (e.g., "better" -> "good").
 
-    ![alt text](assets/image-8.png)
+    ![alt text](assets/lemmatization.png)
 
-4. **Advanced Preprocessing (NLP)**
+#### 4. **Advanced Preprocessing (NLP)**
 These steps analyze the grammatical and structural relationships within the text.
 
 *   * **Part-of-Speech (POS) Tagging**: Assigning a grammatical category (like Noun, Verb, Adjective) to each word based on its context, which aids in understanding the word's function.
 
-    ![alt text](assets/image-7.png)
+    ![alt text](assets/pos.png)
 
     * **Parsing (Syntactic Parsing)**: Analyzing the hierarchical grammatical structure of a sentence.
 
@@ -129,11 +129,11 @@ These steps analyze the grammatical and structural relationships within the text
 
     * **Dependency Parsing**: Shows the grammatical relationships between words as directed links (e.g., subject, object).
 
-    ![alt text](assets/image-6.png)
+    ![alt text](assets/parsing.png)
 
     * **Coreference Resolution**: Identifying and grouping all mentions (pronouns, nouns, phrases) that refer to the same real-world entity within a text (e.g., linking "John" and "He").
 
-    ![alt text](assets/image-3.png)
+    ![alt text](assets/coreference_resolution.png)
 
 ---
 
@@ -190,6 +190,6 @@ It involves integrating the final, trained model into a production environment (
 
 Deployment also includes crucial ongoing phases:
 
-Monitoring: Continuously tracking the model's performance in production to detect issues like model drift (where performance degrades over time due to changing data patterns).
+* **Monitoring**: Continuously tracking the model's performance in production to detect issues like model drift (where performance degrades over time due to changing data patterns).
 
-Retraining: Periodically or automatically updating the model with new data to maintain its accuracy and relevance.
+* **Retraining**: Periodically or automatically updating the model with new data to maintain its accuracy and relevance.

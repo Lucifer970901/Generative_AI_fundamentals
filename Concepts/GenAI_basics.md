@@ -37,19 +37,19 @@ Example for Discriminative model includes -  Logistic Regression, Support Vector
 * Deep Learning is a subset of Machine Learning.
 * Generative AI is a subset of Deep Learning. 
 
-![alt text](assets/image.png)
+![alt text](assets/exist_genai.png)
 
 ---
 
 ### Discrimintative VS Generative Model
 
-![alt text](assets/image-1.png)
+![alt text](assets/discriminative_vs_genai.png)
 
 ---
 
 ### Supervised and Unsupervised Learning
 
-![alt text](assets/image-2.png)
+![alt text](assets/supervised_vs_unsupervised.png)
 
 #### Supervised Learning
 
