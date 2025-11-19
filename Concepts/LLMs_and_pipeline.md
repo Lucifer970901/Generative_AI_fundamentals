@@ -158,7 +158,7 @@ After preprocessing and feature engineering, the data is used to train a model.
 
 * **Open Source LLMs (Large Language Models)**: These models ****can be downloaded and run locally*** or on a private server, offering full control. This requires substantial computational resources (CPU, memory, and powerful GPU) for training and deployment.
 
-* **Paid Models**: These models are ***accessed via an API***(Application Programming Interface), eliminating the need for local download or dedicated high-end hardware for training or inference.
+* **Paid Models**: These models are ***accessed via an API*** (Application Programming Interface), eliminating the need for local download or dedicated high-end hardware for training or inference.
 
 ---
 
@@ -171,7 +171,7 @@ Model evaluation ensures the model performs as expected and meets required stand
 
     * It relies on statistical metrics to measure the model's performance on core tasks.
 
-    * Common Metrics Include:***Accuracy, Precision, Recall, F1 Score*** (for classification), ***Perplexity*** (for language models), and ***BLEU Score*** (for machine translation/text generation).
+    * Common Metrics Include: ***Accuracy, Precision, Recall, F1 Score*** (for classification), ***Perplexity*** (for language models), and ***BLEU Score*** (for machine translation/text generation).
 
 2. **Extrinsic Evaluation (Live/In-Production Metrics)**:
 
@@ -179,7 +179,7 @@ Model evaluation ensures the model performs as expected and meets required stand
 
     * It often measures the impact on a downstream task or business objective.
 
-    * It frequently ***involves collecting user feedback*** (e.g., asking if the user liked the application's output) and monitoring key business metrics.
+    * It frequently ***involves collecting user feedback*** (e.g. asking if the user liked the application's output) and monitoring key business metrics.
 
 ---
 
@@ -202,7 +202,7 @@ These terms are fundamental when discussing text data in NLP:
 
 | Term | Definition |
 | :--- | :--- |
-| Corpus | The entire collection of text data being used.VocabularyThe set of all unique words present in the corpus. |
+| Corpus | The entire collection of text data being used. |
 | Document | Typically refers to a single unit of text, such as one row, one line. |
 | Word | A single token or linguistic item in the text.|
-| Vocabulary | Entire set of unique words or Tokens. |
+| Vocabulary | The set of all unique words present in the corpus. |
