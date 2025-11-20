@@ -43,6 +43,7 @@ It encompasses:
     *  **Feature Transformation**: Adjusting the scale or distribution of features (e.g., scaling, normalization, logging).
 
 ---
+
 ## 🛠️ Common Feature Extraction Techniques by Data Type
 
 The specific technique chosen for feature extraction depends heavily on the type of raw data you are working with.
@@ -56,7 +57,7 @@ These techniques transform human language into a numerical format.
 
     * **Word Embeddings (e.g., Word2Vec, GloVe, BERT embeddings)**: Convert words into dense numerical vectors that capture the semantic relationship between words. Words with similar meanings have vectors that are close to each other in the vector space.
 
---
+---
 
 ### 📷 For Image Data (Computer Vision)
 
@@ -68,7 +69,7 @@ These methods extract meaningful features like shapes, textures, and edges from 
 
     * **Transfer Learning**: The output of intermediate layers in a pre-trained CNN (trained on a massive dataset) is often used as the extracted features for a new, related task.
 
---
+---
 
 ### 🔢 For Numerical/Tabular Data
 
@@ -80,7 +81,7 @@ These techniques primarily focus on dimensionality reduction and separation.
 
     * **Independent Component Analysis (ICA)**: Separates a multivariate signal into additive subcomponents that are as statistically independent of each other as possible.
 
---
+---
 
 ### ⏱️ For Time Series/Signal Data
 
@@ -172,6 +173,7 @@ Example (Word-Level)
    * **Ignores Word Order**: Completely loses the sequence of words.
 
 ---
+
 ###  Bag-of-Words (BoW)
 
 The Bag-of-Words (BoW) model represents a document as a "bag" of words, completely disregarding the original order of the words but keeping track of their frequency (count).
@@ -207,10 +209,10 @@ The Bag-of-Words (BoW) model represents a document as a "bag" of words, complete
 N-grams are contiguous sequences of $N$ items (usually words) from a text. The core idea is to capture local context or short-range dependencies, overcoming the word order limitation of basic BoW.
 
 | N-gram Type| N | Description | Example from "The cat sat on the mat" | 
-| :--- | :--- | :--- | 
-|Unigram | 1 | A single word."The", "cat", "sat" |
-| Bigram | 2 | A sequence of two consecutive words."The cat", "cat sat", "sat on" | 
-| Trigram | 3 | A sequence of three consecutive words."The cat sat", "cat sat on"|
+| :--- | :--- | :--- | :--- |
+|Unigram | 1 | A single word. | "The", "cat", "sat" |
+| Bigram | 2 | A sequence of two consecutive words. | "The cat", "cat sat", "sat on" | 
+| Trigram | 3 | A sequence of three consecutive words. | "The cat sat", "cat sat on" |
 
 Using N-grams (especially Bigrams and Trigrams) in conjunction with BoW can better capture semantics/sentiments based on common phrases (e.g., "not good" versus "very good").
 
@@ -235,6 +237,8 @@ TF-IDF is a statistical measure that evaluates how important a word is to a docu
 A deep learning-based vectorization technique that creates dense vectors (embeddings) where the location of a word in the vector space is determined by its context.
 
 * **Key Advantage**: It successfully captures semantic meaning. Words with similar meanings (e.g., "king" and "queen") or related concepts are placed close together.
+
+![alt text](assets/word2vec.png)
 
 **Transformer-Based Approach (e.g., BERT, GPT)**
 These are state-of-the-art models that generate highly context-aware embeddings.
