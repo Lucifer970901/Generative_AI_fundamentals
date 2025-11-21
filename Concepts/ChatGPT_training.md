@@ -28,12 +28,13 @@ ChatGPT and similar advanced Large Language Models (LLMs) are trained through a 
     **Outcome**: The model is now capable of giving high-quality, relevant, and helpful answers and is much better at understanding and following instructions than the base GPT model.
 
     ![alt text](assets/SFT1.png) ![alt text](assets/SFT2.png)
-    
+
 3. **Reinforcement Learning from Human Feedback (RLHF) (Alignment and Refinement)**
 
     This final and most crucial step aligns the model's behavior with human preferences, values, and instructions, making it conversational and safe.
 
     **A. Training the Reward Model (RM)**
+
     *   1. **Generate Responses**: For a large set of prompts, the SFT model generates multiple different possible responses.
 
         2. **Human Ranking**: Human reviewers rank these responses from best to worst (most helpful, safest, most relevant to the instruction).
@@ -41,8 +42,15 @@ ChatGPT and similar advanced Large Language Models (LLMs) are trained through a 
         3. **Train the RM**: A separate machine learning model, called the Reward Model (RM), is trained on this human-ranked data. The RM learns to predict the human preference score (or "reward") for any given response based on the ranking data. The RM acts as a scalable, automated "judge" that scores the quality of future responses.
 
     **B. Fine-Tuning with Reinforcement Learning (RL)**
+
     *   1. **RL Algorithm**: The original SFT model (now called the Policy Model) is fine-tuned using an RL algorithm like Proximal Policy Optimization (PPO).
 
         2. **Maximize Reward**: The model generates a response, the Reward Model instantly gives it a high or low score, and the model then adjusts its internal parameters to maximize that score (the reward) in the future.
 
         3. **Outcome**: This process steers the model toward generating responses that are not just technically correct (from the pre-training) but are also judged by humans as being more helpful, less toxic, and better aligned with the user's intent—the key to the "ChatGPT feel".
+    
+    ![alt text](assets/RLHF.png)
+
+     and the overall process would look like this.
+     
+    ![alt text](assets/chatgpt.png)
