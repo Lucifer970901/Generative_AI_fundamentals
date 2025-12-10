@@ -17,6 +17,8 @@ ChatGPT and similar advanced Large Language Models (LLMs) are trained through a 
 
     ![alt text](assets/GPT.png)
 
+---
+
 2. **Supervised Fine-Tuning (SFT) (Learning to Follow Instructions)**
 
     This second stage is where the general language model is adapted into an instruction-following chatbot.
@@ -28,6 +30,8 @@ ChatGPT and similar advanced Large Language Models (LLMs) are trained through a 
     **Outcome**: The model is now capable of giving high-quality, relevant, and helpful answers and is much better at understanding and following instructions than the base GPT model.
 
     ![alt text](assets/SFT1.png) ![alt text](assets/SFT2.png)
+
+---
 
 3. **Reinforcement Learning from Human Feedback (RLHF) (Alignment and Refinement)**
 
@@ -52,5 +56,7 @@ ChatGPT and similar advanced Large Language Models (LLMs) are trained through a 
     ![alt text](assets/RLHF.png)
 
      and the overall process would look like this.
-     
+
     ![alt text](assets/chatgpt.png)
+
+---
