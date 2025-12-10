@@ -136,14 +136,15 @@ Hallucinations are fundamentally a side effect of how LLMs are designed to predi
 
     * **Uncertainty Handling**: Unlike humans, LLMs lack a mechanism to simply say "I don't know" when information is sparse or conflicting, leading them to generate a confident guess.
 
+
 ### **✅ Mitigation Strategies**
 
 *    * **Retrieval-Augmented Generation (RAG)**: The most effective method, where the model is provided with retrieved, verified information from a trusted external database (like a company's internal documents) at query time. This "grounds" the response in fact.
 
-    * **Advanced Prompting**: Using techniques like Chain-of-Thought (CoT) prompting, which forces the model to break down its reasoning step-by-step, exposing logical flaws before the final answer is given.
+     * **Advanced Prompting**: Using techniques like Chain-of-Thought (CoT) prompting, which forces the model to break down its reasoning step-by-step, exposing logical flaws before the final answer is given.
 
-    * **Fine-Tuning**: Training the model on highly accurate, domain-specific data to teach it the correct facts and discourage unsupported guessing.
+     * **Fine-Tuning**: Training the model on highly accurate, domain-specific data to teach it the correct facts and discourage unsupported guessing.
 
-    * **Parameter Adjustment**: Setting lower Temperature values to reduce the model's randomness and push it toward the most likely (and often most factual) response.
+     * **Parameter Adjustment**: Setting lower Temperature values to reduce the model's randomness and push it toward the most likely (and often most factual) response.
 
     

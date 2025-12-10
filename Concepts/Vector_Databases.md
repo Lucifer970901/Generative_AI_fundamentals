@@ -16,11 +16,11 @@ Traditional databases use exact matching (like SQL WHERE clauses). Vector databa
 
 *    * **Indexing**: They use special algorithms and data structures (like Hierarchical Navigable Small World, or HNSW) to index millions or billions of high-dimensional vectors.
 
-    * **Query**: When a user inputs a query (e.g., a search term), that query is first converted into its own embedding vector.
+     * **Query**: When a user inputs a query (e.g., a search term), that query is first converted into its own embedding vector.
 
-    * **Search**: The vector database rapidly searches its index to find vectors that are closest (i.e., most similar in meaning) to the query vector, using distance metrics like cosine similarity or Euclidean distance.
+     * **Search**: The vector database rapidly searches its index to find vectors that are closest (i.e., most similar in meaning) to the query vector, using distance metrics like cosine similarity or Euclidean distance.
 
-    * **Retrieval**: It returns the original data (or metadata) associated with those closest vectors.
+     * **Retrieval**: It returns the original data (or metadata) associated with those closest vectors.
 
 
 ## 🌟 Role in AI (Retrieval-Augmented Generation - RAG)
