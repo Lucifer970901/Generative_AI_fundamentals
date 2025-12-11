@@ -20,14 +20,15 @@ Prompt engineering is an iterative and continuous process essential for maximizi
 The difference between a simple query and an engineered prompt is the difference between an ambiguous result and a controlled, targeted outcome.
 
 1. Simple Correction (Minimal Context)
-| Prompt Type |	Prompt Text |	Result Expectation |
-| :--- |:--- |:--- |
+| Prompt Type | Prompt Text |	Result Expectation |
+| :--- | :--- | :--- |
 | Simple Query | 	prompt1 = correct my paragraph: "today was great day in the world for me i went to Disneyland with my mom. I coukd have been better if it wasnt raining" | The model makes basic spelling and grammar fixes, but the style, tone, and sentence structure are left to its default decision. |
 
 2. Role-Based, Constrained Prompt (Interactive Mentor)
 This prompt transforms the LLM into a dedicated, constrained agent for a specific educational task.
 
 | Component | Instruction (Prompt 2) | Purpose | 
+| :--- | :--- | :--- |
 | Role Definition | "I want you to act as spoken english teacher." | Assigns a persona, immediately setting the tone and domain expertise. |
 | Core Task |"I will speak with you in english and you will reply to me in english to practice my spoken english." |Defines the function of the interaction (practice conversation). |
 | Output Constraints | "I want you to keep your reply neat, limiting the reply to 100 words..." | Explicitly restricts the length and format of the output. |
@@ -116,13 +117,15 @@ AI hallucination is a critical term used to describe a phenomenon where a genera
 
 The term is metaphorical; the AI is not experiencing human-like delusions, but rather its underlying mathematical and probabilistic design leads it to generate errors.
 
+
 ### **📉 Key Characteristics**
 
 *    * **Plausible but False**: The output is typically grammatically correct and contextually coherent, making it difficult for a human to immediately detect the falsehood.
 
-    * **Confidently Wrong**: The model often presents the fabricated information with the same authoritative tone it uses for verified facts, without indicating uncertainty.
+     * **Confidently Wrong**: The model often presents the fabricated information with the same authoritative tone it uses for verified facts, without indicating uncertainty.
 
-    * **Examples**: Fabricating legal case law that does not exist, citing non-existent research papers, inventing false financial data, or suggesting incorrect code functions.
+     * **Examples**: Fabricating legal case law that does not exist, citing non-existent research papers, inventing false financial data, or suggesting incorrect code functions.
+
 
 ### **🛑 Primary Causes**
 
