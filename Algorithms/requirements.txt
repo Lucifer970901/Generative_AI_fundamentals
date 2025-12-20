@@ -1,0 +1,24 @@
+# --- CORE INFRASTRUCTURE (The 88-byte Bridge) ---
+numpy==1.26.4
+torch==2.5.1
+pydantic==2.10.3
+
+# --- LANGCHAIN 2025 ECOSYSTEM ---
+langchain==1.2.0
+langchain-core==0.3.25
+langchain-community==0.4.1
+langchain-text-splitters==1.1.0
+langchain-huggingface==1.2.0
+langchain-pinecone==0.2.13
+langchain-classic==1.0.0
+
+# --- VECTOR DB & MODELS ---
+pinecone==8.0.0
+transformers==4.47.1
+sentence-transformers==3.3.1
+spacy==3.8.3
+thinc==8.3.4
+
+# --- DOCUMENT PROCESSING ---
+pypdf==6.4.2
+python-dotenv==1.0.1

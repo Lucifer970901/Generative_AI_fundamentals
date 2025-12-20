@@ -8,7 +8,7 @@ LLM are good at understanding and generating human language.
 
 here its trying to generate the next word, "flowers".
 
-## 💡 Why It's Called a Large Language Model (LLM)
+##  Why It's Called a Large Language Model (LLM)
 
 We call it an LLM because of its enormous size in two key areas:
 
@@ -24,13 +24,13 @@ The result of combining this massive size and huge data feed is that the model g
 
 ---
 
-## 🏗️ LLM model core architecture
+##  LLM model core architecture
 
 The core architecture of Large Language Models (LLMs) is the Transformer, a type of neural network architecture invented by google, introduced in the 2017 paper Attention Is All You Need. It fundamentally changed NLP by relying entirely on the self-attention mechanism to process input data, replacing the need for traditional Recurrent Neural Networks (RNNs) or Convolutional Neural Networks (CNNs).
 
 ![alt text](assets/llm_architecture.png)
 
-### 💡 Simple Takeaway: Transformer Architecture
+###  Simple Takeaway: Transformer Architecture
 
 The Transformer is the core blueprint for LLMs. It works by replacing old, sequential processing methods with a mechanism called Self-Attention.
 
@@ -112,7 +112,7 @@ These include Mistral, Gemini, Claude, Falcon, Deepseek, MPT-30B, Stablem etc
 
  ---
 
- ## 🎨 Prompt Designing
+ ##  Prompt Designing
 
 Prompt Designing (or Prompt Engineering) is the whole art and science of figuring out how to write and format the input text (known as a prompt) to get Large Language Models (LLMs) to perform a specific task or produce a desired output.
 
@@ -130,11 +130,11 @@ Prompts fundamentally rely on the LLM's training to complete patterns or follow 
 
 ---
 
-## 💡 Key Types of Prompt Design
+##  Key Types of Prompt Design
 
 The following types range from the simplest (Zero-Shot) to the most complex (Chain-of-Thought).
 
-### 💡 Zero-Shot Learning
+###  Zero-Shot Learning
 
 The approach using a single command to get an LLM to take on a behavior is called Zero-Shot Learning.
 
@@ -144,7 +144,7 @@ Prompt: "Write me a poem about Ada Lovelace in the style of Shakespeare"
 
 Prompt: "Explain the Quantum Physics to me like I'm five years old"
 
-### 📚 Few-Shot Learning
+###  Few-Shot Learning
 
 In addition to just providing an instruction, it can be helpful to show the model what you want by adding examples. This is called Few-Shot Learning because we showed the model a few examples.
 

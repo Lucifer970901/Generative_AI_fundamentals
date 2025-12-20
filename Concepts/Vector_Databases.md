@@ -18,7 +18,7 @@ Over 80-85% of data is unstructured and cannot be efficiently managed by traditi
 
 *    * **Traditional Issue**: Storing images in a relational database requires manual schema creation (e.g., animal, color, tags), which is inefficient for complex querying.
 
-    * **Vector Solution**: By converting unstructured data (text, images, audio, video) into vectors using an embedding model, the database can manage and query the data based on its meaning rather than manual tags.
+     * **Vector Solution**: By converting unstructured data (text, images, audio, video) into vectors using an embedding model, the database can manage and query the data based on its meaning rather than manual tags.
 
 ![alt text](assets/vector_embedding.png)
 
@@ -56,15 +56,19 @@ The model doesn't manually identify features; it learns them automatically throu
 * **backpropagation**: During training, the network iteratively adjusts the weights (the parameters within the model) to minimize prediction errors.
 
 here is an example from  textual unstrctured data. 
+
 ![alt text](assets/unstrctured_data_as_text.png)
 
 same vectors in 2 dimensions.
+
 ![alt text](assets/vector_in_2d.png)
 
 Here is an example representation of unstructured data into vector embeddings.
+
 ![alt text](assets/vector_indexes.png)
 
 Here is an example of representing unstrctured data into 2 dimensions.
+
 ![alt text](assets/vector_2d_example.png)
 
 ---

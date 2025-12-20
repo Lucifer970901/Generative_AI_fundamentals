@@ -2,7 +2,7 @@
 
 Prompt Engineering is the discipline of structuring and optimizing input instructions (prompts) to reliably elicit desired, high-quality outputs from a Large Language Model (LLM) or other generative AI model. It bridges the gap between human intent and machine execution, transforming simple queries into targeted and constrained commands.
 
-##  🎯 Core Tasks of Prompt Engineering
+##   Core Tasks of Prompt Engineering
 
 Prompt engineering is an iterative and continuous process essential for maximizing the utility and consistency of generative AI applications:
 
@@ -16,7 +16,7 @@ Prompt engineering is an iterative and continuous process essential for maximizi
 
 ---
 
-## 💡 Why Prompt Engineering is Necessary (Illustrative Examples)
+##  Why Prompt Engineering is Necessary (Illustrative Examples)
 The difference between a simple query and an engineered prompt is the difference between an ambiguous result and a controlled, targeted outcome.
 
 1. Simple Correction (Minimal Context)
@@ -89,7 +89,7 @@ This table lists several prominent Large Language Models (LLMs) and their respec
 
 Zero-shot and few-shot are two primary techniques used in prompt engineering to leverage the inherent knowledge of large language models (LLMs) without requiring any formal fine-tuning. Both methods rely on providing clear instructions within the prompt itself.
 
-**🎯 Zero-Shot Prompting**
+**Zero-Shot Prompting**
 
 * Definition: Zero-shot prompting involves giving the LLM an instruction and expecting it to generate the desired output without providing any examples.
 
@@ -99,7 +99,7 @@ Zero-shot and few-shot are two primary techniques used in prompt engineering to 
 
 * Example: "Translate the following English sentence to French: 'The cat sat on the mat.'"
 
-**💡 Few-Shot Prompting**
+**Few-Shot Prompting**
 
 * Definition: Few-shot prompting involves giving the LLM the instruction along with a few complete, high-quality examples of the task and its expected output.
 
